@@ -1,6 +1,10 @@
-body {
-    margin: 0;
-    background: rgb(192, 255, 250);
+.main {
+    background: orange;
+}
+
+.main-container {
+    display: grid;
+    padding: 50px;
     text-align: left;
 }
 
@@ -20,11 +24,6 @@ body {
 
 nav {
     height: 80px;
-    background: rgb(192, 255, 250);
     justify-content: space-between;
     align-items: center;
-}
-
-h1 {
-    color: red;
 }
