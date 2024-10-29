@@ -1,5 +1,17 @@
 body {
+    font-family: Arial;
     margin: 0;
-    background: pink;
-    text-align: center;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+.favicon {
+    width: 32px;
+    height: 32px;
 }
