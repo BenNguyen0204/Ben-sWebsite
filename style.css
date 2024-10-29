@@ -4,6 +4,7 @@
 
 .main-container {
     display: grid;
+    grid-template-columns: 1fr;
     padding: 50px;
     text-align: left;
 }
@@ -15,9 +16,8 @@
     font-family: Arial, sans-serif;
 }
 
-.logo {
+h1 {
     color: black;
-    font-size: h1;
     font-style: bold;
     font-style: italic;
 }
