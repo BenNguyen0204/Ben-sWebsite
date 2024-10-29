@@ -3,3 +3,7 @@ body {
     background: rgb(192, 255, 250);
     text-align: left;
 }
+
+h1 {
+    color: red;
+}
