@@ -1,5 +1,5 @@
 .main {
-    background: orange;
+    background-color: white;
 }
 
 .main-container {
@@ -9,7 +9,6 @@
     align-items: flex-start;
     color: black;
     padding: 20px 20px;
-    min-height: 100vh;
 }
 
 .main-container h1 {
@@ -24,6 +23,7 @@
 }
 
 * {
+    background: orange;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
