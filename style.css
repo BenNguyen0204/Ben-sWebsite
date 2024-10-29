@@ -32,6 +32,12 @@
 
 nav {
     height: 80px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+.nav-items a {
+    color: black;
+    font-weight: bold;
+    padding: 0 10px;
 }
