@@ -1,5 +1,5 @@
 .main {
-    background-color: orange;
+    background-color: white;
 }
 
 .main-container {
@@ -15,6 +15,8 @@
     margin-bottom: 20px;
     font-weight: bold;
     font-style: italic;
+    text-decoration: underline;
+    color: #032f30;
 }
 
 .main-container p {
@@ -23,7 +25,6 @@
 }
 
 * {
-    background: white;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -31,13 +32,26 @@
 }
 
 nav {
-    height: 80px;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    height: 80px;
+    background-color: #032f30;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
 }
 
 .nav-items a {
-    color: black;
-    font-weight: bold;
-    padding: 0 10px;
+    color: white;
+    font-weight: bold; 
+    padding: 0 15px;
+    text-decoration: none; 
+}
+
+.nav-items a:hover {
+    color: #1e90ff;
 }
